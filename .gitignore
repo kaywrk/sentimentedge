@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Model files (too large for GitHub)
+models/saved/*.keras
+models/saved/*.h5
+models/saved/*.joblib
+
+# Data files (too large for GitHub)
+data/prices/
+data/news/
+data/sentiment/
+data/features/
+
+# Streamlit cache
+.streamlit/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
