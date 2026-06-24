@@ -78,6 +78,20 @@ html, body, [class*="css"] {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 
+/* Main app background */
+.stApp {
+    background-color: #07111F !important;
+    color: #E2E8F0 !important;
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: #07111F !important;
+}
+
+[data-testid="stMain"] {
+    background-color: #07111F !important;
+}
+
 /* ── Hide Streamlit chrome ── */
 #MainMenu, footer, header { visibility: hidden; }
 .block-container { padding-top: 1.2rem; padding-bottom: 1rem; padding-left: 1.5rem; padding-right: 1.5rem; }
