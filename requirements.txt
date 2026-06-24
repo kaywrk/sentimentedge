@@ -1,12 +1,7 @@
-py -3.11 -c "
-open('requirements.txt','w').write('''streamlit
-plotly
-pandas
-numpy
-requests
-yfinance
-vaderSentiment
-scikit-learn
-''')
-print('Done')
-"
+streamlit>=1.46.0
+plotly>=5.24.1
+pandas>=2.2.3
+numpy>=1.26.4
+requests>=2.32.3
+yfinance>=0.2.54
+vaderSentiment>=3.3.2
